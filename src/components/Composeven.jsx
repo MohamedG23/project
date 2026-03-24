@@ -7,7 +7,7 @@ export default function Composeven() {
             <a href="#">View All Posts</a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 justify-center">
           <div className="w-[300px] md:w-[400px]">
             <a className="relative w-[400px] h-[500px] group cursor-pointer overflow-hidden rounded-[50px] shadow-lg" href="#">
   <div className="absolute inset-0 bg-gray-100/40 opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100 flex items-center justify-center"/>            

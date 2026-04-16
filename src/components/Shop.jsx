@@ -8,7 +8,7 @@ export default function Shop() {
         </div>
 
 
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 py-25">
+        <div className="grid gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 py-25">
                     <div className="flex flex-col gap-4 items-center hover:bg-gray-500 hover:rounded">
                       <img className="w-[300px]" src="product-1.png" alt="img" />
                       <div>

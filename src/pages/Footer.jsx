@@ -67,9 +67,9 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-between border-t-scolor border-t-1 pt-8">
-            <p className="text-scolor md:w-[550px]">Copyright ©2026. All Rights Reserved. — Designed with love by Untree.co Distributed By ThemeWagon</p>
-           <div className="flex gap-5">
+        <div className="flex flex-col md:flex-row justify-center gap-8 md:justify-between border-t-scolor border-t-1 pt-8">
+            <p className="text-scolor text-center md:text-start md:w-[550px]">Copyright ©2026. All Rights Reserved. — Designed with love by Untree.co Distributed By ThemeWagon</p>
+           <div className="flex justify-between gap-5">
             <a className="hover:text-scolor" href="#">Terms & Conditions</a>
             <a className="hover:text-scolor" href="#">Privacy Policy</a>
            </div>

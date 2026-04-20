@@ -4,8 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Blog from "./pages/Blog";
-import Contactus from "./components/Contactus";
 import Shop from "./pages/Shop";
+import Contactus from "./pages/Contactus";
 
 export default function App() {
   return (

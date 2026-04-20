@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="flex flex-col gap-5">
 
-        <div className="bg-mycolor flex px-5 gap-4">
+        <div className="bg-mycolor flex flex-col md:flex-row px-5 gap-4">
 
         <div className=" text-white  flex flex-col justify-center gap-8">
             <h1 className="font-myfont text-5xl font-bold">About Us</h1>

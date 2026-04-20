@@ -2,7 +2,7 @@
 export default function Compofour() {
   return (
     <div className="py-20 flex flex-col lg:flex-row px-3 lg:px-0 gap-30 md:gap-30 lg:gap-0 md:items-center lg:justify-around">
-        <div className="lg:w-[700px] flex items-start gap-5 relative">
+        <div className="lg:w-[700px] flex items-start gap-2 md:gap-5 relative">
             <img className="w-[200px] md:w-[400px] rounded-3xl" src="img-grid-1.jpg" alt="" />
             <img className="w-[100px] md:w-[200px] rounded-3xl" src="img-grid-2.jpg" alt="" />
             <img className="w-[150px] md:w-[300px] rounded-3xl absolute top-30 right-0 md:top-55 lg:right-20 md:right-0" src="img-grid-3.jpg" alt="" />

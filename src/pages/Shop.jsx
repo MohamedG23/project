@@ -21,68 +21,7 @@ export default function Shop() {
         <h1 className="text-4xl font-myfont font-bold text-white">Shop</h1>
       </div>
 
-      {/* <div className="grid gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 py-25">
-        <div className="flex flex-col gap-4 items-center hover:bg-gray-500 hover:rounded">
-          <img className="w-[300px]" src="product-1.png" alt="img" />
-          <div>
-            <p className="font-bold">Nordic Chair</p>
-            <h3 className="font-bold">$50000</h3>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4 items-center hover:bg-gray-500 hover:rounded">
-          <img className="w-[300px]" src="product-2.png" alt="img" />
-          <div>
-            <p className="font-bold">Kruzo Aero Chair</p>
-            <h3 className="font-bold">$78000</h3>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4 items-center hover:bg-gray-500 hover:rounded">
-          <img className="w-[300px]" src="product-3.png" alt="img" />
-          <div>
-            <p className="font-bold">Ergonomic Chair</p>
-            <h3 className="font-bold">$43000</h3>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-4 items-center hover:bg-gray-500 hover:rounded">
-          <img className="w-[300px]" src="product-1.png" alt="img" />
-          <div>
-            <p className="font-bold">Nordic Chair</p>
-            <h3 className="font-bold">$50000</h3>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4 items-center hover:bg-gray-500 hover:rounded">
-          <img className="w-[300px]" src="product-2.png" alt="img" />
-          <div>
-            <p className="font-bold">Kruzo Aero Chair</p>
-            <h3 className="font-bold">$78000</h3>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4 items-center hover:bg-gray-500 hover:rounded">
-          <img className="w-[300px]" src="product-3.png" alt="img" />
-          <div>
-            <p className="font-bold">Ergonomic Chair</p>
-            <h3 className="font-bold">$43000</h3>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-4 items-center hover:bg-gray-500 hover:rounded">
-          <img className="w-[300px]" src="product-1.png" alt="img" />
-          <div>
-            <p className="font-bold">Nordic Chair</p>
-            <h3 className="font-bold">$50000</h3>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4 items-center hover:bg-gray-500 hover:rounded">
-          <img className="w-[300px]" src="product-2.png" alt="img" />
-          <div>
-            <p className="font-bold">Kruzo Aero Chair</p>
-            <h3 className="font-bold">$78000</h3>
-          </div>
-        </div>
-      </div> */}
-
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-3 py-25">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-3 justify-center py-25">
         {proudect?.map((el) => (
           <div className="relative flex flex-col items-center group cursor-pointer w-64 pt-10">
             {/* صورة الكرسي - نستخدم z-10 للتأكد أنها فوق الخلفية */}
@@ -93,7 +32,7 @@ export default function Shop() {
             />
 
             {/* خلفية الكارت التي تظهر عند الـ Hover */}
-            <div className="absolute bottom-0 left-0 right-0 h-0 bg-gray-200/50 rounded-2xl transition-all duration-300 group-hover:h-[75%] -z-0"></div>
+            <div className="absolute bottom-0 left-0 right-0 h-0 rounded-2xl transition-all duration-300 group-hover:h-[75%] -z-0"></div>
 
             {/* نصوص المنتج */}
             <div className="text-center mt-4 z-10">
@@ -122,7 +61,7 @@ export default function Shop() {
             />
 
             {/* خلفية الكارت التي تظهر عند الـ Hover */}
-            <div className="absolute bottom-0 left-0 right-0 h-0 bg-gray-200/50 rounded-2xl transition-all duration-300 group-hover:h-[75%] -z-0"></div>
+            <div className="absolute bottom-0 left-0 right-0 h-0 rounded-2xl transition-all duration-300 group-hover:h-[75%] -z-0"></div>
 
             {/* نصوص المنتج */}
             <div className="text-center mt-4 z-10">
@@ -151,7 +90,7 @@ export default function Shop() {
             />
 
             {/* خلفية الكارت التي تظهر عند الـ Hover */}
-            <div className="absolute bottom-0 left-0 right-0 h-0 bg-gray-200/50 rounded-2xl transition-all duration-300 group-hover:h-[75%] -z-0"></div>
+            <div className="absolute bottom-0 left-0 right-0 h-0 rounded-2xl transition-all duration-300 group-hover:h-[75%] -z-0"></div>
 
             {/* نصوص المنتج */}
             <div className="text-center mt-4 z-10">

@@ -8,7 +8,8 @@ import Footer from "./Footer";
 export default function Layout() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
+    <div className="flex justify-center">
+      <div className="container">
       <div className="flex justify-between bg-mycolor p-5 text-white">
         <h1 className="font-myfont  font-bold text-3xl">Furni</h1>
 
@@ -126,10 +127,11 @@ export default function Layout() {
         </div>
       </div>
 
-      <div>
+      <div className="pb-20">
         <Outlet />
       </div>
       <Footer />
+      </div>
     </div>
   );
 }

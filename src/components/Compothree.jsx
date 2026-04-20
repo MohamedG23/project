@@ -7,7 +7,7 @@ import { TbRepeat } from "react-icons/tb";
 export default function Compothree() {
   return (
     <div className="py-20 flex flex-col lg:flex-row justify-between items-center lg:justify-around gap-25">
-        <div className="flex flex-col justify-around gap-5 font-myfont w-[350px] md:w-[600px]">
+        <div className="flex flex-col justify-around gap-5 font-myfont w-[300px] md:w-[600px]">
             <div>
                 <h1 className="pb-2 text-4xl">Why Choose Us</h1>
                 <p className="text-scolor">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
